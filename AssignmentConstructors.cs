@@ -62,6 +62,7 @@ class Question
     //A constructor that receives questionText as parameter and initializes questionText. Also, initialize optionA, optionB, optionC, optionD as null. Initialize correctAnswerLetter to the value of static field 'defaultCorrectAnswerLetter'.
     public Question(string questionText)
     {
+        // This is parameterised Constructor
         this.questionText = questionText;
         optionA = null;
         optionB = null;
