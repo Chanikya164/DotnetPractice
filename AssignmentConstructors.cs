@@ -50,6 +50,7 @@ class Question
     //A constructor that initializes questionText, optionA, optionB, optionC, optionD as null. Initialize correctAnswerLetter to the value of static field 'defaultCorrectAnswerLetter'.
     public Question()
     {
+        //This  is default constructor
         questionText = null;
         optionA = null;
         optionB = null;
