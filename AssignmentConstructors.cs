@@ -74,6 +74,7 @@ class Question
     //A constructor that initializes questionText, optionA, optionB, optionC, optionD and correctAnswerText
     public Question(string questionText, string optionA, string optionB, string optionC, string optionD, char correctAnswerLetter)
     {
+        //This is multiparamerised
         this.questionText = questionText;
         this.optionA = optionA;
         this.optionB = optionB;
